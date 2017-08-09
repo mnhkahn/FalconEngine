@@ -14,8 +14,9 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"tree"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/tree"
+	"github.com/mnhkahn/FalconEngine/src/utils"
 )
 
 // FieldInfo description: 字段的描述信息

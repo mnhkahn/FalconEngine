@@ -20,7 +20,8 @@ import (
 	"regexp"
 	"strconv"
 	"time"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/utils"
 )
 
 const (

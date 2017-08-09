@@ -16,8 +16,10 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"tree"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/utils"
+
+	"github.com/mnhkahn/FalconEngine/src/tree"
 )
 
 /************************************************************************

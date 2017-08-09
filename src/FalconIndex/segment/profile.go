@@ -17,7 +17,8 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/utils"
 )
 
 //profile 正排索引，detail也是保存在这里

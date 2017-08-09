@@ -17,9 +17,11 @@ import (
 	"reflect"
 	"strconv"
 	//"strconv"
-	"bolt"
 	"unsafe"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/utils"
+
+	"github.com/mnhkahn/FalconEngine/src/bolt"
 )
 
 const magicnum uint32 = 0x9EDFEDFA

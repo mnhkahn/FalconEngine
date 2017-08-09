@@ -5,12 +5,12 @@ import (
 	"fmt"
 	_ "net/http/pprof"
 	"runtime"
-	//"runtime/debug"
-	//"tree"
-	fd "FalconDispatcher"
-	fe "FalconEngine"
-	fs "FalconService"
-	"utils"
+
+	"github.com/mnhkahn/FalconEngine/src/utils"
+
+	fd "github.com/mnhkahn/FalconEngine/src/FalconDispatcher"
+	fe "github.com/mnhkahn/FalconEngine/src/FalconEngine"
+	fs "github.com/mnhkahn/FalconEngine/src/FalconService"
 )
 
 func main() {
